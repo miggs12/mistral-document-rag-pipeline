@@ -1,5 +1,8 @@
 # Mistral Local RAG Pipeline for Document Q&A
-
+## Demo
+- **Loom Walkthrough (3 min):** https://www.loom.com/share/2099d0de777c4476958b5ab29ae8b819
+- **Notebook:** [RAG Pipeline Demo](notebooks/RAG_Pipeline_Demo.ipynb)
+  
 ## Overview
 A fully local Retrieval-Augmented Generation (RAG) system for intelligent document understanding of noisy, multi-format PDFs (resumes, mortgage documents, payslips). The pipeline performs OCR, semantic chunking, metadata-aware retrieval, and grounded question answering using a local Mistral-7B LLM.
 
@@ -54,10 +57,6 @@ Average Response Time: ~9.1 seconds
 Retrieval Latency: ~200–400 ms
 LLM Generation: ~7 seconds (local inference)
 Document Processing: ~20–40s per document (OCR + indexing)
-
-## Demo
-- **Loom Walkthrough (3 min):** https://www.loom.com/share/2099d0de777c4476958b5ab29ae8b819
-- **Google Colab Notebook:** https://drive.google.com/file/d/1oJxt1QuhVOMU7Uw8lnYj2y9ONSkumRDN/view
 
 ## How to Run Locally (Quick Start)
 Full setup, evaluation, and configuration details are documented in the notebook.
